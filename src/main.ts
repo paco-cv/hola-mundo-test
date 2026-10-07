@@ -3,7 +3,7 @@ import { createClient } from '@supabase/supabase-js'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <main style="font-family: system-ui; max-width: 640px; margin: 4rem auto; text-align: center;">
-    <h1>HOLA MUNDO V2</h1>
+    <h1>HOLA MUNDO V3</h1>
     <p>Prueba GitHub → Netlify → Supabase</p>
     <p id="msg" style="font-size: 1.4rem; font-weight: bold;">cargando...</p>
     <p id="err" style="color: crimson;"></p>
