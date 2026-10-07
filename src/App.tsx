@@ -2,9 +2,7 @@ import { useEffect, useState } from 'react'
 import { createClient } from '@supabase/supabase-js'
 
 const url = import.meta.env.VITE_SUPABASE_URL as string | undefined
-// Moderna sb_publishable con fallback a la legacy anon para no romper Netlify
-const key = (import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string | undefined)
-  ?? (import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined)
+const key = import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY as string | undefined
 
 export default function App() {
   const [msg, setMsg] = useState('cargando...')
