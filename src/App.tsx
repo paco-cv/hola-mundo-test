@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <main style={{ fontFamily: 'system-ui', maxWidth: 640, margin: '4rem auto', textAlign: 'center' }}>
-      <h1>HOLA MUNDO V2</h1>
+      <h1>HOLA MUNDO V3</h1>
       <p>Prueba GitHub → Netlify → Supabase (React)</p>
       <p style={{ fontSize: '1.4rem', fontWeight: 'bold' }}>{msg}</p>
       {err && <p style={{ color: 'crimson' }}>{err}</p>}
